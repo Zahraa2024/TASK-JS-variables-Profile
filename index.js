@@ -11,8 +11,11 @@
 
 // Part 1 answer 👇🏻 ...
 
-
-
+let fullName = "Zahraa Alhusaini";
+let yearOfBirth = 1993;
+let hobby = "Coding";
+let funFact = "I am a sleepy lady";
+let image = "./zahraa.png";
 
 
 
@@ -33,7 +36,9 @@
 // const yearOfBirthString =
 // const hobbyString =
 
-
+const fullNameString = `My name is ${fullName}`;
+const yearOfBirthString = `I am ${2024-yearOfBirth}`;
+const hobbyString = ` My hobby is ${hobby}`;
 
 
 /**
@@ -44,15 +49,20 @@
 let stars = 0;
 
 function incrementBy1() {
+  
+  stars = stars + 1
   // Increment stars by 1 👇🏻
 }
 function decrementBy1() {
+  stars= stars - 1
   // decrement stars by 1 👇🏻
 }
 
-function incrementBy2() {
+function incrementBy2() { 
+  stars= stars + 2
   // Increment stars by 2 👇🏻
 }
-function decrementBy2() {
+function decrementBy2() { 
+  stars = stars -2
   // decrement stars by 2 👇🏻
 }
